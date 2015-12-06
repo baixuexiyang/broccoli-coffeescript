@@ -1,0 +1,30 @@
+{
+    "name": "broccoli-coffeescript-niubility",
+    "version": "0.0.1",
+    "description": "Compile CoffeeScript",
+    "repository": "baixuexiyang/broccoli-coffeescript-niubility",
+    "author": {
+        "name": "keven",
+        "email": "ganzwen@gmail.com"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "scripts": {
+        "test": "broccoli build tmp"
+    },
+    "files": ["index.js"],
+    "keywords": ["broccoli-plugin", "coffeescript", "javascript", "js", "compile"],
+    "dependencies": {
+        "broccoli-filter": "^1.2.2",
+        "rsvp": "^3.0.0",
+        "coffee-script": "^1.10.0"
+    },
+    "devDependencies": {
+        "broccoli-fixture": "^0.1.0",
+        "chai": "^3.4.0",
+        "chai-as-promised": "^5.1.0",
+        "mocha": "^2.3.3"
+    },
+    "license": "MIT"
+}
