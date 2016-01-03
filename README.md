@@ -21,5 +21,5 @@ coffeescript(tree, options);
   It will be emited into the javascript file on the top   
 
 # Issues  
-	[new Issue](https://github.com/baixuexiyang/broccoli-coffeescript/issues/new)  
+[new Issue](https://github.com/baixuexiyang/broccoli-coffeescript/issues/new)     
 
