@@ -13,11 +13,7 @@ chai.use(chaiAsPromised);
 describe('broccoli-coffee', function() {
 	var options;
 	before(function() {
-		options = {
-			wrapper: false,
-			sourceMap: false,
-			header: ''
-		};
+		options = {"wrapper": false,"sourceMap": false,"header": ''};
 	});
 	it('compiles .coffee or .cf files', function() {
 		var inputNode = new fixture.Node({

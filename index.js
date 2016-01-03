@@ -9,7 +9,7 @@ function CoffeeScriptFilter(inputTree, options) {
         return new CoffeeScriptFilter(inputTree, options)
     }
     Filter.call(this, inputTree, options);
-    this.options = options || {wrapper: false,sourceMap: false,header: ''};
+    this.options = options || {"wrapper": false,"sourceMap": false,"header": ''};
 }
 
 CoffeeScriptFilter.prototype = Object.create(Filter.prototype)
