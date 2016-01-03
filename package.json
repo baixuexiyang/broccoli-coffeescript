@@ -1,10 +1,10 @@
 {
-    "name": "broccoli-coffeescript-niubility",
+    "name": "broccoli-coffeescript",
     "version": "0.0.1",
     "description": "Compile CoffeeScript",
     "repository": {
         "type": "git",
-        "url": "https://baixuexiyang@github.com/baixuexiyang/broccoli-coffeescript-niubility.git"
+        "url": "https://baixuexiyang@github.com/baixuexiyang/broccoli-coffeescript.git"
     },
     "author": {
         "name": "keven",
