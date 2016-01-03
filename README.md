@@ -13,11 +13,11 @@ var coffeescript = require("broccoli-coffeescript");
 coffeescript(tree, options);    
 ```  
 # Options  
- ## wrapper  
+## wrapper  
   If set true (default is false), the compiler will not emit a top-level function wrapper     
- ## sourceMap   
+## sourceMap   
   default false   
- ## header    
+## header    
   It will be emited into the javascript file on the top   
 
 # Issues  
