@@ -19,7 +19,7 @@ describe('broccoli-coffee', function() {
 		var inputNode = new fixture.Node({
 			'test.coffee': 'console.log "Hello world"'
 		})
-		return expect(fixture.build(new BroccoliCoffee(inputNode, options))).to.eventually.deep.equal({
+		return expect(fixture.build(new coffeescript(inputNode, options))).to.eventually.deep.equal({
 			'test.js': '(function() {\n  console.log(\"Hello world\");\n\n}).call(this);\n'
 		})
 	})
